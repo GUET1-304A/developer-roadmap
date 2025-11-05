@@ -169,6 +169,12 @@ const groups: GroupType[] = [
         type: 'skill',
         otherGroups: ['Web Development'],
       },
+      {
+        title: 'Laravel',
+        link: '/laravel',
+        type: 'skill',
+        otherGroups: ['Web Development'],
+      },
     ],
   },
   {
@@ -197,6 +203,12 @@ const groups: GroupType[] = [
         link: '/kotlin',
         type: 'skill',
         otherGroups: ['Web Development', 'DevOps', 'Mobile Development'],
+      },
+      {
+        title: 'Swift & Swift-UI',
+        link: '/swift-ui',
+        type: 'skill',
+        otherGroups: ['Mobile Development'],
       },
       {
         title: 'TypeScript',
@@ -250,6 +262,12 @@ const groups: GroupType[] = [
         link: '/sql',
         type: 'skill',
         otherGroups: ['Web Development', 'Databases', 'DevOps'],
+      },
+      {
+        title: 'Shell / Bash',
+        link: '/shell-bash',
+        type: 'skill',
+        otherGroups: ['Web Development', 'DevOps'],
       },
     ],
   },
