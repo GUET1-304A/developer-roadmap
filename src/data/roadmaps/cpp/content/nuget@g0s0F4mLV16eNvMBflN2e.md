@@ -1,45 +1,8 @@
 # NuGet
 
-[NuGet](https://www.nuget.org/) is a Microsoft-supported package manager for the .NET framework, mainly used in C# and other .NET languages, but also supports C++ projects with `PackageReference`. It allows you to easily add, update, and manage dependencies in your projects.
+NuGet is a package manager initially designed for the .NET ecosystem, but it also extends its functionality to C++ projects through the `PackageReference` format. It simplifies the process of adding, updating, and managing external libraries and dependencies within your C++ projects, whether you're using Visual Studio's GUI, its integrated command-line tools, or the standalone `nuget.exe` executable. With NuGet, managing dependencies becomes more streamlined and efficient, allowing you to focus on your core C++ code.
 
-### Installation
+Visit the following resources to learn more:
 
-You can use NuGet either as a command-line tool or integrated in your preferred IDE like Visual Studio or Visual Studio Code. If you're using Visual Studio, it comes pre-installed. For other editors, you may need to download the command-line tool `nuget.exe`.
-
-### Usage
-
-You can use NuGet to manage your C++ dependencies using the PackageReference format in vcxproj files:
-
-- Tools > NuGet Package Manager > Manage NuGet Packages for Solution…
-- Package source should be set to "nuget.org"
-- Select the Projects tab
-- Use the search box to find packages
-
-For example, to install a package called "PackageName" for all configurations:
-
-```xml
-<Project>
-  <ItemGroup>
-    <PackageReference Include="PackageName" Version="1.0.0" />
-  </ItemGroup>
-  ...
-</Project>
-```
-
-### NuGet Command-Line
-
-You can also use the command-line tool `nuget.exe` for more advanced scenarios or for specific needs.
-
-Here's an example of installing a package using the command line:
-
-```bash
-nuget install PackageName
-```
-
-And updating a package:
-
-```bash
-nuget update PackageName
-```
-
-For more information and detailed examples on using NuGet in your projects, please refer to the [official documentation](https://docs.microsoft.com/en-us/nuget/guides/native-packages).
+- [@article@Creating Cross-Platform NuGet Package To Wrap Native C++ Libraries](https://medium.com/@yooonatan/creating-cross-platform-nuget-package-to-wrap-native-c-libraries-b2ee71c34164)
+- [@video@What is NuGet? | Nuget 101 [1 of 5]](https://www.youtube.com/watch?v=WW3bO1lNDmo)

@@ -1,6 +1,6 @@
-# Operating system
+# Operating System
 
-Operating systems (OS) are fundamental software that manage computer hardware and software resources, providing common services for computer programs. They act as an intermediary between applications and hardware, handling tasks like memory management, process scheduling, file system management, and device control. Common desktop operating systems include Microsoft Windows, macOS, and various Linux distributions. Mobile devices typically run iOS or Android. Server environments often use Linux distributions like Ubuntu Server, Red Hat Enterprise Linux, or Windows Server. Each OS type offers distinct features, user interfaces, and compatibility with different software and hardware. Operating systems play a crucial role in system security, performance optimization, and providing a consistent user experience across diverse computing devices and environments.
+An operating system is the foundational software that manages a computer's hardware and software resources, providing common services for various programs. It acts as an intermediary between users and hardware, handling tasks like process scheduling, memory management, file systems, and device control. By abstracting the complexity of physical components, it allows applications to run consistently across different environments.
 
 Visit the following resources to learn more:
 

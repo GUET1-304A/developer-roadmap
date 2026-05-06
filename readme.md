@@ -37,6 +37,9 @@ Here is the list of available roadmaps with more being actively worked upon.
 - [DevOps Roadmap](https://roadmap.sh/devops) / [DevOps Beginner Roadmap](https://roadmap.sh/devops?r=devops-beginner)
 - [DevSecOps Roadmap](https://roadmap.sh/devsecops)
 - [Full Stack Roadmap](https://roadmap.sh/full-stack)
+- [Claude Code Roadmap](https://roadmap.sh/claude-code)
+- [OpenClaw Roadmap](https://roadmap.sh/openclaw)
+- [Vibe Coding Roadmap](https://roadmap.sh/vibe-coding)
 - [HTML Roadmap](https://roadmap.sh/html)
 - [CSS Roadmap](https://roadmap.sh/css)
 - [JavaScript Roadmap](https://roadmap.sh/javascript)
@@ -50,6 +53,7 @@ Here is the list of available roadmaps with more being actively worked upon.
 - [AWS Roadmap](https://roadmap.sh/aws)
 - [Cloudflare Roadmap](https://roadmap.sh/cloudflare)
 - [Linux Roadmap](https://roadmap.sh/linux)
+- [Leetcode Roadmap](https://roadmap.sh/leetcode)
 - [Terraform Roadmap](https://roadmap.sh/terraform)
 - [Data Analyst Roadmap](https://roadmap.sh/data-analyst)
 - [BI Analyst Roadmap](https://roadmap.sh/bi-analyst)
@@ -59,7 +63,8 @@ Here is the list of available roadmaps with more being actively worked upon.
 - [Product Manager Roadmap](https://roadmap.sh/product-manager)
 - [Engineering Manager Roadmap](https://roadmap.sh/engineering-manager)
 - [QA Roadmap](https://roadmap.sh/qa)
-- [Python Roadmap](https://roadmap.sh/python)
+- [Python Roadmap](https://roadmap.sh/python) 
+- [Django Roadmap](https://roadmap.sh/django)
 - [Software Architect Roadmap](https://roadmap.sh/software-architect)
 - [Game Developer Roadmap](https://roadmap.sh/game-developer) / [Server Side Game Developer](https://roadmap.sh/server-side-game-developer)
 - [Software Design and Architecture Roadmap](https://roadmap.sh/software-design-architecture)
@@ -71,7 +76,7 @@ Here is the list of available roadmaps with more being actively worked upon.
 - [Angular Roadmap](https://roadmap.sh/angular)
 - [Node.js Roadmap](https://roadmap.sh/nodejs)
 - [PHP Roadmap](https://roadmap.sh/php)
-- [Wordpress Roadmap](https://roadmap.sh/wordpress)
+- [WordPress Roadmap](https://roadmap.sh/wordpress)
 - [Laravel Roadmap](https://roadmap.sh/laravel)
 - [GraphQL Roadmap](https://roadmap.sh/graphql)
 - [Android Roadmap](https://roadmap.sh/android)
@@ -102,6 +107,10 @@ Here is the list of available roadmaps with more being actively worked upon.
 - [AI Red Teaming Roadmap](https://roadmap.sh/ai-red-teaming)
 - [AI Agents Roadmap](https://roadmap.sh/ai-agents)
 - [Bash/Shell Roadmap](https://roadmap.sh/shell-bash)
+- [Ruby Roadmap](https://roadmap.sh/ruby)
+- [Ruby on Rails Roadmap](https://roadmap.sh/ruby-on-rails)
+- [Scala Roadmap](https://roadmap.sh/scala)
+
 
 There are also interactive best practices:
 
@@ -136,7 +145,7 @@ Please consider sharing a post about [roadmap.sh](https://roadmap.sh) and the va
 Clone the repository, install the dependencies and start the application
 
 ```bash
-git clone git@github.com:kamranahmedse/developer-roadmap.git --depth 1
+git clone git@github.com:nilbuild/developer-roadmap.git --depth 1
 cd developer-roadmap
 pnpm add @roadmapsh/editor@npm:@roadmapsh/dummy-editor -w
 pnpm install
@@ -147,6 +156,7 @@ Run the development server with:
 ```bash
 pnpm dev
 ```
+> Make sure to rename `.env.example` to `.env` before running the app.
 
 ## Contribution
 
@@ -160,8 +170,8 @@ pnpm dev
 
 ## Thanks to all contributors ❤
 
- <a href = "https://github.com/kamranahmedse/developer-roadmap/graphs/contributors">
-   <img src = "https://contrib.rocks/image?repo=kamranahmedse/developer-roadmap"/>
+ <a href = "https://github.com/nilbuild/developer-roadmap/graphs/contributors">
+   <img src = "https://contrib.rocks/image?repo=nilbuild/developer-roadmap"/>
  </a>
 
 ## License

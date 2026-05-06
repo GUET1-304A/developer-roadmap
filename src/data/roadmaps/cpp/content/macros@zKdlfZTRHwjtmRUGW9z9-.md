@@ -1,55 +1,8 @@
 # C++ Macros
 
-Macros are preprocessing directives in C++ used by the preprocessor to perform text substitution. They are defined using the `#define` directive, followed by the macro name and the value to be substituted.
+Macros in C++ are preprocessing directives that instruct the preprocessor to perform text substitutions before compilation. Defined using `#define`, they enable you to create symbolic constants, function-like constructs, and control conditional compilation. Macros can help in code optimization and customization, but it's essential to use them judiciously due to potential debugging and scope issues.
 
-Macros can be used to define constants, create function-like macros, or perform conditional compilation.
+Visit the following resources to learn more:
 
-## Constant Macros
-
-Constant macros are used to define symbolic constants for use in code. They do not use any memory and are replaced by the preprocessor before the compilation process.
-
-Example:
-
-```cpp
-#define PI 3.14159
-```
-
-This macro defines a symbolic constant `PI`. You can use it in your code as if it were a regular variable.
-
-```cpp
-double circumference = 2 * PI * radius;
-```
-
-## Function-like Macros
-
-Function-like macros are similar to regular functions. They take a list of arguments and perform text substitution.
-
-Example:
-
-```cpp
-#define SQUARE(x) ((x) * (x))
-```
-
-This macro defines a function-like macro `SQUARE` that calculates the square of a number.
-
-```cpp
-int square_of_five = SQUARE(5); // expands to ((5) * (5))
-```
-
-## Conditional Compilation
-
-Macros can be used for conditional compilation using the `#ifdef`, `#ifndef`, `#if`, `#else`, `#elif`, and `#endif` directives.
-
-Example:
-
-```cpp
-#define DEBUG_MODE
-
-#ifdef DEBUG_MODE
-  // Code to be compiled only in debug mode
-#else
-  // Code to be compiled only if DEBUG_MODE is not defined
-#endif
-```
-
-This example demonstrates how you can use macros to control the parts of code that are being compiled, depending on the presence or absence of a macro definition.
+- [@article@Macros in C++](https://www.youtube.com/watch?v=j3mYki1SrKE)
+- [@video@C++ Macros](https://www.codecademy.com/resources/docs/cpp/macros)

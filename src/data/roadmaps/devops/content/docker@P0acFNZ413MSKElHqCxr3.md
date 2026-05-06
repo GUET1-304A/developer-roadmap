@@ -5,8 +5,6 @@ Docker is an open-source platform that automates the deployment, scaling, and ma
 Visit the following resources to learn more:
 
 - [@roadmap@Visit Dedicated Docker Roadmap](https://roadmap.sh/docker)
+- [@course@DevOps with Docker](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker)
 - [@official@Docker Documentation](https://docs.docker.com/)
 - [@video@Docker Tutorial](https://www.youtube.com/watch?v=RqTEHSBrYFw)
-- [@video@Docker simplified in 55 seconds](https://youtu.be/vP_4DlOH1G4)
-- [@feed@Explore top posts about Docker](https://app.daily.dev/tags/docker?ref=roadmapsh)
-- [@course@DevOps with Docker](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker)

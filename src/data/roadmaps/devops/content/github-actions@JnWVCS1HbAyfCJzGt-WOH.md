@@ -1,6 +1,6 @@
 # GitHub Actions
 
-GitHub Actions is GitHub’s built-in automation platform that lets you run workflows directly from your repository, such as building, testing, and deploying code, triggered by events like pushes, pull requests, or schedules.
+GitHub Actions is a CI/CD and automation platform built into GitHub. It lets you define workflows in YAML files that trigger on repository events, such as pushes or pull requests, to automatically build, test, and deploy your code without leaving the GitHub ecosystem.
 
 Visit the following resources to learn more:
 

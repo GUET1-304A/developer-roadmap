@@ -1,6 +1,6 @@
 # Ansible
 
-Ansible is an open-source automation tool used for configuration management, application deployment, and task automation. It simplifies the process of managing and orchestrating infrastructure by using a declarative language to define desired states and configurations. Ansible operates using YAML files, called playbooks, which describe the tasks to be executed on remote systems. It employs an agentless architecture, meaning it uses SSH or other remote protocols to execute tasks on target machines without requiring additional software to be installed. Ansible is widely used for automating repetitive tasks, ensuring consistency, and managing large-scale deployments across various environments.
+Ansible is an open-source automation tool used for configuration management, application deployment, and task orchestration. It operates as an agentless system, connecting to remote servers via SSH or WinRM to execute tasks defined in human-readable YAML files called playbooks. It allows users to describe the desired state of a system, and the tool ensures the infrastructure matches that configuration automatically.
 
 Visit the following resources to learn more:
 
@@ -8,4 +8,3 @@ Visit the following resources to learn more:
 - [@official@Ansible Website](https://www.ansible.com/)
 - [@video@Ansible in 100 Seconds](https://www.youtube.com/watch?v=xRMPKQweySE)
 - [@video@Ansible Full Course to Zero to Hero](https://www.youtube.com/watch?v=GROqwFFLl3s)
-- [@feed@Explore top posts about Ansible](https://app.daily.dev/tags/ansible?ref=roadmapsh)

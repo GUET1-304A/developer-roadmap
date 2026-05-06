@@ -1,31 +1,7 @@
-# Non-Copyable
+# Non-Copyable / Non-Moveable
 
-The non-copyable idiom is a C++ design pattern that prevents objects from being copied or assigned. It's usually applied to classes that manage resources, like file handles or network sockets, where copying the object could cause issues like resource leaks or double deletions.
+The non-copyable/non-moveable idiom in C++ prevents objects of a class from being copied or moved. This is achieved by deleting the copy constructor, copy assignment operator, move constructor, and move assignment operator. It's useful for classes that manage exclusive resources, ensuring that only one instance controls the resource at a time, preventing issues like resource duplication or double deletion. By disabling copying and moving, you enforce a unique ownership model for instances of the class.
 
-To make a class non-copyable, you need to delete the copy constructor and the copy assignment operator. This can be done explicitly in the class declaration, making it clear to other programmers that copying is not allowed.
+Visit the following resources to learn more:
 
-Here's an example of how to apply the non-copyable idiom to a class:
-
-```cpp
-class NonCopyable {
-public:
-  NonCopyable() = default;
-  ~NonCopyable() = default;
-
-  // Delete the copy constructor
-  NonCopyable(const NonCopyable&) = delete;
-
-  // Delete the copy assignment operator
-  NonCopyable& operator=(const NonCopyable&) = delete;
-};
-```
-
-To use the idiom, simply inherit from the `NonCopyable` class:
-
-```cpp
-class MyClass : private NonCopyable {
-  // MyClass is now non-copyable
-};
-```
-
-This ensures that any attempt to copy or assign objects of `MyClass` will result in a compilation error, thus preventing unwanted behavior.
+- [@article@Dealing with non-copyable objects - (C++ Tutorial)](https://dev.to/dabretema/the-day-i-forbade-copy-semantics-to-an-object-nkl)

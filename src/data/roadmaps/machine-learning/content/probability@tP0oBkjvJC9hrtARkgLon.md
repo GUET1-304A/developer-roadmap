@@ -5,5 +5,5 @@ Probability is a way to quantify the likelihood of an event occurring. It provid
 Visit the following resources to learn more:
 
 - [@book@Probability and Statistics: The Science of Uncertainty](https://utstat.utoronto.ca/mikevans/jeffrosenthal/book.pdf)
-- [@article@Probability for machine learning](https://towardsdatascience.com/probability-for-machine-learning-b4150953df09/)
+- [@article@Probability for machine learning](https://towardsdatascience.com/probability-for-machine-learning-b4150953df09/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration)
 - [@video@Probability for Data Science & Machine Learning](https://www.youtube.com/watch?v=sEte4hXEgJ8)
